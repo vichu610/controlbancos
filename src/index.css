@@ -1,13 +1,147 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --color:#e0e9dd;
+  --font-family:'Mukta', sans-serif;
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+
+ background-color: #e0dbdb; 
+ margin: 0;
+
+}
+
+.letras{
+font-family: 'Monoton', cursive;;
+color: white;
+display:grid ;
+place-items: center;
+position: relative;
+
+
+}
+.letras:hover{
+
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  overflow: hidden;
+  color: rgb(139, 135, 135);
+}
+
+
+i{
+  font-size: 40px;
+  position: relative;
+  color: #625E5E;
+  text-shadow: 2px 2px 2px --color ;
+  transition: all .5s ease-in-out;
+
+}
+i:hover{
+  color:var(--color);
+
+}
+img{
+  position: absolute;
+  opacity: 0.8;
+  width: 99%; 
+  height: 640px;
+ 
+}
+p{
+  font-family: 'Mukta', sans-serif;
+  font-size: 22px;
+
+}
+
+.header{
+  position:relative;
+  font-size: 33px;
+  padding-right: 5%;
+  display: grid;
+  grid-template-columns: repeat(4,1px);
+  height: 300px;
+  padding-top: 20%;
+  
+}
+.header li:hover{
+  font-size: 45px;
+  filter: opacity(0.5);
+}
+.barra{
+height:200px ;
+
+}
+
+
+
+.form-control:hover{
+border-width: 5px;
+
+}
+
+  
+
+.titulo{
+text-align: center;
+font-size: 38px;
+color: darkolivegreen;
+text-shadow: 3px 3px 3px  rgb(145, 140, 140);
+}
+.contenedor{
+  border: 1px solid rgb(153, 151, 151);
+  height: 400px;
+  padding: 20px;
+  margin-top: 10%;
+  
+  
+}
+
+.contenedor button {
+  background-color: dimgray;
+  border-color: #625E5E;
+  font-size: 28px;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  margin-left: 80px;
+}
+.contenedor button:hover{
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  overflow: hidden;
+ 
+}
+.contenedor label{
+  font-size: 20px;
+
+}
+.contenedor input{
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 15px;
+
+}
+
+#boton{
+  background-color: rgb(218, 212, 212);
+  border-color: #625E5E;
+  font-size: 23px;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  margin-left: 42%; 
+}
+#boton:hover{
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  overflow: hidden;
+  
 }
