@@ -7,15 +7,16 @@ import { v4 as uuid4 } from 'uuid';
 const Registrar=()=>{
 
   const[registro,setRegistro]=useState(
-  {
+  /*{
       id:uuid4(),
       nombre:'',
       usuario:'',
       pass:'',
       rpass:'',
       correo:''
-    }
+  }*/
   )
+  
   const onSubmit=(e)=>{
     e.preventDefault();
 
